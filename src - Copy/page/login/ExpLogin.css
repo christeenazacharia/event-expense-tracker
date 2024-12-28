@@ -1,0 +1,105 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #436065, #436065, #436065, #436065);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #436065, #436065, #436065, #436065);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+    /* Image Animation */
+.illustration-img {
+    max-width: 90%; /* Image size */
+    animation: imageBounce 1s infinite ease-in-out, fadeIn 2s ease-in;
+    transform-origin: center;
+}
+
+/* Keyframe for bounce animation */
+@keyframes imageBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.login-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: .8rem;
+    color: #134953;
+    font-weight:bold;
+    text-align: center;
+    margin-top: 20px;
+   
+    letter-spacing: 1px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.login-heading:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+.form-label{
+    font-family: 'Arial', sans-serif;    
+    font-size: .8rem;
+}
+
+
+.navbar {
+    background-color: #436065;
+    
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading-center {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: #333;
+}
+.small-h{
+    font-family: 'Arial', sans-serif;
+    font-size: .8rem;
+    color: #ffffff;
+}
+.mb-4{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+  }

@@ -1,0 +1,29 @@
+/* AddExpense.css */
+
+h2.text-center {
+  font-weight: bold; /* Makes the heading bold */
+  color: #135a79; /* Custom color */
+  font-size: 1.5rem; /* Adjust the size of the font */
+  font-family: 'Arial', sans-serif;
+}
+/* Styling for Save button */
+.hh{
+font-weight: bold; /* Makes the heading bold */
+  color: #135a79; /* Custom color */
+  font-size: 1.5rem; /* Adjust the size of the font */
+  font-family: 'Arial', sans-serif;
+
+}
+
+
+.th {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+}
+table .table-header2{
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+
+}

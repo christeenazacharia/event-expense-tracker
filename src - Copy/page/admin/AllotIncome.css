@@ -1,0 +1,22 @@
+/* AddExpense.css */
+
+h2.text-center {
+  font-weight: bold; /* Makes the heading bold */
+  color: #135a79; /* Custom color */
+  font-size: 1.5rem; /* Adjust the size of the font */
+  font-family: 'Arial', sans-serif;
+}
+/* Styling for Save button */
+.hh{
+font-weight: bold; /* Makes the heading bold */
+  color: #135a79; /* Custom color */
+  font-size: 1.5rem; /* Adjust the size of the font */
+  font-family: 'Arial', sans-serif;
+
+}
+
+
+table th {
+  background-color: #007bff;
+  color: white;
+}

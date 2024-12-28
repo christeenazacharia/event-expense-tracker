@@ -1,0 +1,133 @@
+/* AddExpense.css */
+.add-expense {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(138, 138, 138);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-expense h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .add-expense .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-expense label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .add-expense input,
+  .add-expense select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-expense .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-expense .btn:hover {
+    background-color: #47697d;
+  }
+  
+  .add-expense .btn:active {
+    background-color: #004085;
+  }
+  h2.text-center {
+    font-weight: bold; /* Makes the heading bold */
+    color: #135a79; /* Custom color */
+    font-size: 1.5rem; /* Adjust the size of the font */
+    font-family: 'Arial', sans-serif;
+}
+/* Styling for Save button */
+.hh{
+  font-weight: bold; /* Makes the heading bold */
+    color: #135a79; /* Custom color */
+    font-size: 1.5rem; /* Adjust the size of the font */
+    font-family: 'Arial', sans-serif;
+
+}
+
+
+/* General Table Styling */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+/* Table Header Styling */
+.table-header {
+  background-color: #135a79; /* Dark blue background for the header */
+  color: white; /* White text for better contrast */
+  font-weight: bold; /* Make header text bold */
+}
+
+.table-cell {
+  padding: 12px 15px; /* Add padding for spacing */
+  text-align: center; /* Center align text */
+  font-size: 14px; /* Adjust font size */
+  border: 1px solid #ddd; /* Light gray border for separation */
+}
+
+/* Styling for the "Sl.No" column */
+.table-cell:first-child {
+  width: 10%; /* Make "Sl.No" column narrower */
+}
+
+/* Styling for the "Date" column */
+.table-cell:nth-child(2) {
+  width: 25%; /* Set width for Date column */
+}
+
+/* Styling for the "Amount" column */
+.table-cell:nth-child(3) {
+  width: 25%; /* Set width for Amount column */
+}
+
+/* Styling for the "Remarks" column */
+.table-cell:nth-child(4) {
+  width: 40%; /* Set width for Remarks column */
+}
+
+/* Optional: Alternate Row Color */
+.table-row:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+/* Hover Effect for Rows */
+.table-row:hover {
+  background-color: #e2e2e2; /* Slightly darker gray when hovering */
+  cursor: pointer;
+}
+
+/* Optional: Add some responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .table-cell {
+      padding: 8px;
+      font-size: 12px;
+  }
+}
+.table th {
+  background-color: #436065;
+  color: #fff;
+  
+}
